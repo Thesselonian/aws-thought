@@ -44,7 +44,6 @@ const ThoughtForm = () => {
   // submit form
   const handleFormSubmit = (event) => {
     event.preventDefault();
-
     const postData = async () => {
       const res = await fetch('/api/users', {
         method: 'POST',
